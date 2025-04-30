@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StageWrite Collaborative Script Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>StageWrite Collaborative Script Editor</h1>
+    <div class="user-list">
+      <h3>Users:</h3>
+      <ul id="userList"></ul>
+    </div>
+    <div class="editor">
+      <textarea id="scriptEditor" placeholder="Start writing your script..."></textarea>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
